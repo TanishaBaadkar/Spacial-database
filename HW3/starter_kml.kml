@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>2801OrchardAve</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287566,34.029264</coordinates></Point>
+</Placemark>
+<Placemark><name>StudyHall</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284303,34.028762</coordinates></Point>
+</Placemark>
+<Placemark><name>TheDunes</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287433,34.028511</coordinates></Point>
+</Placemark>
+<Placemark><name>TerraceApt</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28839,34.028843</coordinates></Point>
+</Placemark>
+<Placemark><name>ManasIndian</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291786,34.028979</coordinates></Point>
+</Placemark>
+<Placemark><name>MenloAvenue</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.290377,34.028524</coordinates></Point>
+</Placemark>
+<Placemark><name>TrojanPlazaApt</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289253,34.029915</coordinates></Point>
+</Placemark>
+<Placemark><name>ellendale</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289345,34.030089</coordinates></Point>
+</Placemark>
+<Placemark><name>Mosaic</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284331,34.030347</coordinates></Point>
+</Placemark>
+<Placemark><name>1210WestAdams</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287144,34.032595</coordinates></Point>
+</Placemark>
+<Placemark><name>USCVillage</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285302,34.026962</coordinates></Point>
+</Placemark>
+<Placemark><name>LyonCenter</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288307,34.024342</coordinates></Point>
+</Placemark>
+<Placemark>
+      <name>Simple Polygon</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+            -118.291786,34.028979
+            -118.288307,34.024342
+            -118.285302,34.026962
+            -118.284303,34.028762
+            -118.284331,34.030347
+            -118.287144,34.032595
+            -118.291786,34.028979
+              </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+        <Style id="neighbor">
+            <LineStyle>
+                <width>4</width>
+                <color>#ffffff00</color>
+            </LineStyle>
+        </Style>
+        <Placemark>
+            <name>line(home,neighbor1)</name>
+            <description>Connects Orchard ave to Dunes</description>
+            <LineString>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>
+                    -118.287566,34.029264,50
+                    -118.287433,34.028511,50
+                </coordinates>
+            </LineString>
+            <styleUrl>#neighbor</styleUrl>
+        </Placemark>
+        <Placemark>
+            <name>line(home,neighbor2)</name>
+            <description>Connects orchard ave to Terrace apartments</description>
+            <LineString>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>
+                    -118.287566,34.029264,50
+                    -118.28839,34.028843,50
+                </coordinates>
+            </LineString>
+            <styleUrl>#neighbor</styleUrl>
+        </Placemark>
+        <Placemark>
+            <name>line(home,neighbor3)</name>
+            <description>Connects orchard ave to trojan plaza</description>
+            <LineString>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>
+                    -118.287566,34.029264,50
+                    -118.289253,34.029915,50
+                </coordinates>
+            </LineString>
+            <styleUrl>#neighbor</styleUrl>
+        </Placemark>
+<Placemark>
+            <name>line(home,neighbor4)</name>
+            <description>Connects orchard ave to ellendale</description>
+            <LineString>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>
+                    -118.287566,34.029264,50
+                    -118.289345,34.030089,50
+                </coordinates>
+            </LineString>
+            <styleUrl>#neighbor</styleUrl>
+        </Placemark>
+</Document></kml>
+
